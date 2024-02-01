@@ -1,6 +1,6 @@
 import get from './utils/getElement.js';
 import getUser from './utils/fetchUser.js';
-import displayUser from './utils/displayUser.js';
+import displayUser from './utils/displayuser.js';
 
 const btn = get('.btn');
 
@@ -12,5 +12,5 @@ const showUser = async () => {
     // display user
 };
 
-window.addEventListener('DOMContentLoaded' , showUser);
+window.addEventListener('DOMContentLoaded', showUser);
 btn.addEventListener('click', showUser);
