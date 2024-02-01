@@ -21,3 +21,5 @@ const displayUser = (person) => {
         });
     });
 };
+
+export default displayUser;
