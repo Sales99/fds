@@ -1,7 +1,7 @@
 import get from './getElement.js';
 import removeActive from './removeActive.js';
 
-const img = get ('.user-img'); 
+const img = get('.user-img');
 const title = get('.user-title');
 const value = get('.user-value');
 const btns = [...document.querySelectorAll('.icon')];
@@ -19,7 +19,5 @@ const displayUser = (person) => {
             removeActive(btns);
             btn.classList.add('active');
         });
-     });
-    };
-
-export default displayUser;
+    });
+};
